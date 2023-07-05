@@ -35,7 +35,7 @@ def review():
                             'prediction' : sentiment,
                             'url' : emoji_url})
 
-        return jsonify(response)
+        return response
 
 
 if __name__  ==  "__main__":
